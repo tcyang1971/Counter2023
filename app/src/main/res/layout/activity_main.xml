@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="計數器"
+        android:onClick="happy"
+        android:text="樂透"
+        android:textSize="36sp" />
+
+    <TextView
         android:id="@+id/txv"
-        android:textSize="36sp"
-        android:gravity="center"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="計數器"
+        android:textSize="36sp" />
 
 </LinearLayout>
